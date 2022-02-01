@@ -8,6 +8,8 @@
         ".gitattributes",
         ".gitignore",
         "addon.jpg",
-        "README.md"
+        "README.md",
+        "*.sh",
+        ".idea*"
     ]
 }
