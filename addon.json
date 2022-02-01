@@ -10,6 +10,7 @@
         "addon.jpg",
         "README.md",
         "*.sh",
-        ".idea*"
+        ".idea/*",
+        "out/*"
     ]
 }
