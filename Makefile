@@ -13,4 +13,4 @@ build: create-output-folder
 	@${GMAD_BIN} create -folder "$(shell pwd)" -out "${OUTPUT_PATH}"
 
 publish:
-    @LD_LIBRARY_PATH="${GMOD_BIN_DIR}" ${GMPUBLISH_BIN} create -addon "${OUTPUT_PATH}" -icon "$(shell pwd)/addon.jpg"
+	@LD_LIBRARY_PATH="${GMOD_BIN_DIR}" ${GMPUBLISH_BIN} create -addon "${OUTPUT_PATH}" -icon "$(shell pwd)/addon.jpg"
