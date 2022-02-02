@@ -9,7 +9,7 @@
         ".gitignore",
         "addon.jpg",
         "README.md",
-        "*.sh",
+        "Makefile",
         ".idea/*",
         "out/*"
     ]
